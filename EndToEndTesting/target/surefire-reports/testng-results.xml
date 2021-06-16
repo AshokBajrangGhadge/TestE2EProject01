@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15210" started-at="2021-06-16T09:51:41Z" finished-at="2021-06-16T09:51:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15210" started-at="2021-06-16T09:51:41Z" finished-at="2021-06-16T09:51:56Z">
+      <class name="testPackage.NewTest01">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testPackage.NewTest01@731f8236]" name="beforeTest" is-config="true" duration-ms="7" started-at="2021-06-16T15:21:41Z" finished-at="2021-06-16T15:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testPackage.VerifyPageName@58c1c010]" name="beforeTest" is-config="true" duration-ms="6813" started-at="2021-06-16T15:21:41Z" finished-at="2021-06-16T15:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="FirstHello()[pri:0, instance:testPackage.NewTest01@731f8236]" name="FirstHello" duration-ms="2" started-at="2021-06-16T15:21:47Z" finished-at="2021-06-16T15:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstHello -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testPackage.NewTest01@731f8236]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-06-16T15:21:55Z" finished-at="2021-06-16T15:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testPackage.VerifyPageName@58c1c010]" name="afterTest" is-config="true" duration-ms="822" started-at="2021-06-16T15:21:55Z" finished-at="2021-06-16T15:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testPackage.NewTest01 -->
+      <class name="testPackage.VerifyPageName">
+        <test-method status="PASS" signature="VerifyWebPageName()[pri:0, instance:testPackage.VerifyPageName@58c1c010]" name="VerifyWebPageName" duration-ms="7548" started-at="2021-06-16T15:21:47Z" finished-at="2021-06-16T15:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWebPageName -->
+      </class> <!-- testPackage.VerifyPageName -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
