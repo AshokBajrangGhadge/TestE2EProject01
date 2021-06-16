@@ -9,6 +9,7 @@ public class NewTest01 {
   public void FirstHello() {
 	  System.out.println("HI........ I am first Hello");
 	  System.out.println("HI........ I am first Hello");
+	  System.out.println("HI........ I am first Hello");
   }
   @BeforeTest
   public void beforeTest() {
